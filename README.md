@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação web de Business Intelligence (BI) que permite aos usuários fazer perguntas em linguagem natural sobre seus dados e receber respostas textuais e gráficos interativos gerados por IA.
 
-![GIF do App em Ação](link_para_um_gif_do_seu_app.gif)  <-- *Isso é muito importante! Grave um GIF!*
+![Demonstração do JOKAAI](./gif/demo.gif)
 
 ## Como Funciona?
 
@@ -28,7 +28,7 @@ A aplicação utiliza uma arquitetura híbrida inteligente:
 
 1.  **Clone o Repositório**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone https://github.com/Jokaneto/chat-to-bi-gemini-flask.git
     cd seu-repositorio
     ```
 
@@ -38,7 +38,7 @@ A aplicação utiliza uma arquitetura híbrida inteligente:
     ```
 
 3.  **Configure as Credenciais**
-    * Siga o guia do Google para criar uma **Conta de Serviço** e obter o arquivo `credentials.json`. [Link para o Guia do Google aqui]
+    * Siga o guia do Google para criar uma **Conta de Serviço** e obter o arquivo `credentials.json`. [Guia oficial do Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
     * Ative a API do Google Drive e a API do Gemini no seu projeto Google Cloud.
     * Renomeie `credentials.json.template` para `credentials.json` e preencha com suas chaves.
 
